@@ -1,0 +1,7 @@
+*.pyc
+*.bam
+*.sam
+*.txt
+*.fa
+*.fastq
+*.vcf
