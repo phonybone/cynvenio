@@ -1,6 +1,17 @@
 import random
 from ln_dist import LnDist
 
+'''
+Create a random-ish read from a given sequence by selecting a portion out
+at a random location.  Further alter the seleceted portion with some number
+of random mutations.
+
+Todo: write some code (here or elsewhere) that takes a collection of 
+random reads, along with their position relative to the original sequence,
+and randomly mutates a portion of them all the same way, to mimic a real-life
+mutation that's been replicated.
+'''
+
 class RandomRead(object):
     def __init__(self, read_len, default_qa, max_muts=3):
         self.count=0
